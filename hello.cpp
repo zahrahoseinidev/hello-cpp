@@ -1,6 +1,9 @@
 #include <iostream>
 #include "hello.h"
 
-void hello(){
-	std::cout << "Hello World!\n";
+using namespase std;
+
+void hello()
+{
+	cout << "Hello World!\n";
 }
